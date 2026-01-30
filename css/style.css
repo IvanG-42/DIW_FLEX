@@ -1,0 +1,91 @@
+/*Elements que no canvien (Numero i colors de linia)*/
+body {
+    display: flex;
+    flex-direction: column; /* mantiene el comportamiento vertical */
+    gap: 20px;
+}
+
+.num {
+    background-color: rgba(186, 186, 186, 0.805);
+    border-radius: 50%;
+    display: block;
+    font-size: 1.5em;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+}
+.d1 {
+    background-color: blue;
+}
+.d2 {
+    background-color: darkgoldenrod;
+}
+.d3 {
+    background-color: chartreuse;
+}
+
+/*Elements canviants (Diferents exercicis)*/
+.cont {
+    border: 5px solid black;
+    display: flex;
+}
+.c1 {
+    border: 5px solid black;    
+}
+
+/*Exercici dos amb parametre general de display: fles; a la classe .cont*/
+
+.c3 {
+    justify-content: space-evenly;
+}
+.c4 {
+    justify-content: end;
+    gap: 15px;
+}
+.c5 {
+    justify-content: space-evenly;
+    height: 400px;
+}
+.c6 {
+    justify-content: center;
+    padding: 10%;
+    gap: 15px;
+}
+.c7 {
+    justify-content: end;
+    padding-top: 10%;
+    gap: 15px;
+}
+.c8 {
+    justify-content: end;
+    padding-top: 10%;
+    gap: 15px;
+}
+/*aliniacio ex8*/
+.d1-ex8 {order: 2;}
+.d2-ex8 {order: 1;}
+.d3-ex8 {order: 3;}
+
+.c9 {
+    flex-direction: column;
+}
+.c10 {
+    flex-direction: column;
+    gap: 40px;
+}
+.c11 {
+    flex-direction: column;
+    gap: 15px;
+    align-items: end;
+    padding: 5% 0% 5% 0%;
+}
+.c12 {
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 5%;
+}
+/*aliniacio ex8*/
+.d1-ex12 {order: 2;}
+.d2-ex12 {order: 3;}
+.d3-ex12 {order: 1;}
